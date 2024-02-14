@@ -19,3 +19,4 @@ let isLoggedIn = true
 // object
 
 console.log(typeof "3+3");
+console.log(typeof null);
