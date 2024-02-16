@@ -52,7 +52,7 @@ let userOne = {
 
 let userTwo = userOne
 
-userTwo.email = "zee@google.com"
+userTwo.email = "Zee@google.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
