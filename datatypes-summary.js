@@ -30,3 +30,29 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+//***********
+
+// Memory => Stack(Primitive), Heap(Non-Primitve)
+
+
+let myInstaname =  "Itszee"
+
+let anothername = myInstaname
+anothername = "Itzzee"
+
+console.log(myInstaname);
+console.log(anothername);
+
+let userOne = {
+
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "zee@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
